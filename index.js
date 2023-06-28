@@ -1,13 +1,15 @@
 function addingEventListener() {
-
-    const button = document.getElementById("button");
-
-    function clickAlert(){
-        alert("i was clicked!");
-        console.log("i was clicked!");
-    }
-    return button.addEventListener("click",clickAlert);
 }
+  const input = document.getElementById("input");
+
+  function clickAlert() {
+    alert("I was clicked!");
+  }
+
+  input.addEventListener("click", clickAlert);{
+}
+    
+    
 
 
 
